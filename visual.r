@@ -2,7 +2,7 @@
 #Focus is on visualizing the data by room type
 
 santacruz = read.csv("documents/airbnb_santacruz.csv")
-head(santacruz)
+attach(santacruz)
 
 #Find out types of rooms
 unique(santacruz$room_type)
